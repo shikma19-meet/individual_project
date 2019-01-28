@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+{% for charity in all_charities%}
+<a href="{{charity.id}}">{{charity.name}}</a>
+<img src="{{charity.pic1}}">
+{%endfor%}
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> </title>
+</head>
+<link rel="stylesheet" type="text/css" href="/static/charity_page_style.css">
+<body>
+	<div id="home_button">
+		<a href="/">home</a>
+	</div>
+	<div id = "charity_name">
+		<h1><a class="botton" href="{{charity.url}}" target="_blank"> {{charity.name}}</a></h1>
+	</div>
+	<div id="what_do">
+		<h2> What do we do at {{charity.name}}?</h2>
+	</div>
+	<div id="charity_description">
+		<h4>{{charity.description}} </h4>
+	</div>
+	<div class="row" id="both_pics">
+		<div class="col-2">
+		</div>
+		<div class="col-4" id="pic">
+		<img src="{{ charity.pic2 }}"  height="200" width="200">
+		</div>
+		<img src="{{ charity.pic3 }}"  height="200" width="200">
+	</div>
+</body>
+</html>

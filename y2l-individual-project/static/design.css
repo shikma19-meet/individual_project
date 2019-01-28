@@ -1,0 +1,32 @@
+.linki
+{
+	text-align: center;
+	size: 50px;
+
+	font-family: "Courier", new body, serif;
+}
+.img-wrapper
+{
+	margin-left: 350px;
+}
+
+.navbar
+{
+
+}
+
+.navitem
+{
+    /*background-color: #ff0000;*/
+	margin: 30px;
+}
+
+.navitem a
+{
+	/*color: #00ff00;*/
+}
+
+.navitem a:hover
+{
+	background-color: #ff0000;
+}

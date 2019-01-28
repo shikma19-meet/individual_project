@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+  <link rel="stylesheet" type="text/css" href="/static/design.css">
+</head>
+<body>
+
+<div class="row" class="navbar">
+  {% for charity in all_charities%}
+  <span class="navitem">
+    <a href="#{{charity.id}}">{{charity.name}}</a>
+  </span>
+  {%endfor%}
+</div>
+
+
+{% for charity in all_charities%}
+<div class="row">
+  <div class="col-4" >
+  <p>
+    
+  </p>
+
+  <div class="entry-wrapper"><a name="{{charity.id}}" />
+
+    <div class="linki">
+      <a class="linki" href="{{url_for('charity_page', id = charity.id)}}">
+      {{charity.name}}</a>
+    </div>
+
+    <div class="img-wrapper">  
+    <img src="{{charity.pic1}}" width= 600" height="300">
+    </div>
+
+  <div class="col-4"> 
+    <p></p>
+  </div>
+
+{%endfor%}
+</body>
+</html>
