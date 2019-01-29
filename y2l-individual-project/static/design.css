@@ -28,5 +28,30 @@
 
 .navitem a:hover
 {
-	background-color: #ff0000;
+	background-color: #EFCECE;
+	color:black;
+}
+
+#welcome
+{
+	text-align: center;
+	font-weight: 10px;
+	font-family: "Courier",new body,serif;
+}
+
+#add
+{
+	color: black;
+	text-align: center;
+	font-family: "Courier",new body,serif;
+}
+#add a:hover
+{
+	background-color:#EFCECE;
+	color:black;
+}
+
+.navbar
+{
+	font-family: "Courier",new body,serif;
 }

@@ -7,6 +7,15 @@
 </head>
 <body>
 
+<div id="welcome">
+  <h1> welcome to the charity place! where you can find the suitable charity for you</h1>
+</div>
+
+<div id="add">
+  <a  href ="/add_charity">add a charity!</a>
+</div>
+<br>
+
 <div class="row" class="navbar">
   {% for charity in all_charities%}
   <span class="navitem">
@@ -39,5 +48,7 @@
   </div>
 
 {%endfor%}
+
+
 </body>
 </html>

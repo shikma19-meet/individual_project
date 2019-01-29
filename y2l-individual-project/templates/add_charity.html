@@ -3,22 +3,33 @@
 <head>
 	<title></title>
 </head>
+<link rel="stylesheet" type="text/css" href="static/add_charity.css">
 <body>
-<form action="/add_charity" method="POST">
-	Name of the charity:<br>
-	<input type="text" name="charity_name"> <br>
-	Short description: <br>
-	<input type="text" name="short_description"> <br> 
-	url of the charity's website : <br>
-	<input type="text" name="url"> <br>
-	url of a picture: <br>
-	<input type="text" name="pic1"> <br>
-	url of another picture: <br>
-	<input type="text" name="pic2"> <br>
-	url of another picture: <br>
-	<input type="text" name="pic3"> <br> <br>
-	<input type="submit" name="submit">
-	
-</form>
+<a href="/">home</a>
+<div class="explain">
+	<h2> love a charity that not enough people know about? <br>
+		opened up a new charity and need some volnteers? 
+		add your charity to the site, so that people will know about it! 
+	</h2>
+
+	<h3> just fill out this form, and your charity will applear on the site! </h3>
+</div>
+<div class="form">
+	<form action="/add_charity" method="POST">
+		Name of the charity:<br>
+		<input type="text" name="charity_name"> <br>
+		Short description: <br>
+		<input type="text" name="short_description"> <br> 
+		url of the charity's website : <br>
+		<input type="text" name="url"> <br>
+		url of a picture: <br>
+		<input type="text" name="pic1"> <br>
+		url of another picture: <br>
+		<input type="text" name="pic2"> <br>
+		url of another picture: <br>
+		<input type="text" name="pic3"> <br> <br>
+		<input type="submit" name="submit">
+	</form>
+</div>	
 </body>
 </html>

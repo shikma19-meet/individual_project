@@ -1,3 +1,10 @@
+.everything
+{
+	font-family: "Courier", new body, serif;
+}
+
+
+
 #charity_name
 {
 	text-align: center;
@@ -12,4 +19,8 @@
 #charity_description
 {
 	text-align: center;
+}
+#pic
+{
+	margin-left: 200px;
 }
